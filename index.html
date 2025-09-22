@@ -3,77 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>E-Commerce Cart - Esercizio</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>E-Commerce Cart - React + Vite</title>
   </head>
   <body>
-    <header>
-      <h1>Catalogo Prodotti</h1>
-    </header>
-
-    <main class="container">
-      <section id="catalog-section">
-        <h2>Prodotti</h2>
-        <div class="search-bar">
-          <label for="search" class="hidden">Cerca prodotti</label>
-          <input id="search" type="search" placeholder="Cerca prodotti..." />
-        </div>
-        <div class="filter-bar">
-          <label for="category-select">Categoria:</label>
-          <select id="category-select">
-            <option value="all">Tutte</option>
-          </select>
-        </div>
-        <!-- Admin panel per aggiungere prodotti -->
-        <section id="admin-panel" class="admin-panel">
-          <h3>Admin: Aggiungi prodotto</h3>
-          <form id="add-product-form">
-            <div class="form-row">
-              <label for="prod-name">Nome</label>
-              <input id="prod-name" type="text" required />
-            </div>
-            <div class="form-row">
-              <label for="prod-price">Prezzo</label>
-              <input id="prod-price" type="number" min="0" step="0.01" required />
-            </div>
-            <div class="form-row">
-              <label for="prod-category">Categoria</label>
-              <input id="prod-category" type="text" list="category-list" required />
-              <small id="category-hint" class="category-hint">Categorie esistenti: </small>
-              <datalist id="category-list"></datalist>
-            </div>
-            <div class="form-row">
-              <label for="prod-image-url">URL immagine (richiesto per immagini dal web)</label>
-              <input id="prod-image-url" type="url" placeholder="https://..." />
-            </div>
-            <div class="form-row form-actions">
-              <button type="submit" class="btn">Aggiungi Prodotto</button>
-            </div>
-          </form>
-        </section>
-        <div id="catalog" class="catalog-grid">
-          <!-- Catalogo generato dinamicamente -->
-        </div>
-      </section>
-
-      <aside id="cart-section">
-        <h2>Carrello</h2>
-        <div class="cart-controls">
-          <button id="clear-cart-btn" class="btn clear-btn">Svuota Carrello</button>
-        </div>
-        <div id="cart" class="cart-list">
-          <!-- Carrello generato dinamicamente -->
-        </div>
-        <div id="total" class="total-area">
-          Totale: € 0
-        </div>
-      </aside>
-    </main>
-
-    <footer>
-      <p>Progetto: Catalogo prodotti interattivo - esercizio didattico</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

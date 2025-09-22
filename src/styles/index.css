@@ -1,0 +1,5 @@
+/* Indice dei CSS del progetto - importa tutti i moduli di stile */
+@import './variables.css';
+@import './base.css';
+@import './layout.css';
+@import './components.css';

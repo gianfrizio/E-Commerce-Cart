@@ -1,0 +1,49 @@
+/* Variabili tematizzabili e override tema chiaro */
+:root {
+  --bg: 
+    radial-gradient(
+      1200px 400px at 10% 10%,
+      rgba(124,92,255,0.08),
+      transparent
+    ),
+    linear-gradient(
+      180deg,
+      #061226 0%,
+      #071226 50%,
+      #031018 100%
+    );
+  --panel: #0b1220;
+  --card: #0f1728;
+  --text-color: #e6eef8;
+  --muted: #9aa4b2;
+  --accent: #7c5cff; /* viola vibrante */
+  --accent-2: #00d4ff; /* accento ciano */
+  --glass: rgba(255,255,255,0.04);
+  --radius: 12px;
+
+  --surface-overlay: rgba(255,255,255,0.02);
+  --surface-overlay-2: rgba(255,255,255,0.03);
+  --surface-overlay-3: rgba(255,255,255,0.015);
+  --card-border: rgba(255,255,255,0.04);
+  --panel-border: rgba(255,255,255,0.03);
+  --input-bg: rgba(255,255,255,0.02);
+  --ghost-border: rgba(255,255,255,0.06);
+}
+
+body.light-theme {
+  --bg: linear-gradient(180deg,#f7fafc 0%, #eef2f7 100%);
+  --panel: #ffffff;
+  --card: #ffffff;
+  --text-color: #0b1220;
+  --muted: #5a6b7a;
+  --accent: #6b46ff;
+  --accent-2: #06b6d4;
+  --glass: rgba(0,0,0,0.04);
+  --surface-overlay: rgba(2,6,23,0.03);
+  --surface-overlay-2: rgba(2,6,23,0.02);
+  --surface-overlay-3: rgba(2,6,23,0.015);
+  --card-border: rgba(2,6,23,0.06);
+  --panel-border: rgba(2,6,23,0.06);
+  --input-bg: rgba(11,18,32,0.04);
+  --ghost-border: rgba(2,6,23,0.06);
+}

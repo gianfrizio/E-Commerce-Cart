@@ -1,0 +1,58 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Production
+/dist
+/build
+
+# Env files
+.env
+.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Vite / cache
+/.vite
+/.cache
+
+# OSX
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Mac / Linux swap
+*~
+
+# Tests
+/coverage
+
+# Misc
+coverage/
+reports/
+
+# Local debug files
+*.local
+
+# Lockfiles (optional)
+# package-lock.json
+# pnpm-lock.yaml
+
+# Generated images or uploads (if you store them locally)
+/uploads/
+
+# JetBrains
+*.iml
+
+# TypeScript
+*.tsbuildinfo
